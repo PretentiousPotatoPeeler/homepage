@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Blog"
+theme = "hugo-journal"
+
+[author]
+name = "Pepijn Compaan"
+
+[params]
+description = "A Blog description"
+githubUsername = "PretentiousPotatoPeeler"
+linkedinUsername = "pepijn-compaan-b97623121"
+tagline = "Stuff I've Figured Out"
