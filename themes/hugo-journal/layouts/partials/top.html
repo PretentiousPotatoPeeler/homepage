@@ -21,11 +21,13 @@
     <meta name="description" content="{{ .Description }}">
     {{- end }}
 
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Archivo+Black|Barlow|Cinzel|Exo+2|Yantramanav:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Archivo+Black|Barlow|Cinzel|Exo+2|Yantramanav" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Arvo:400,700">
     <link rel="stylesheet" href="{{ "css/highlight.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "css/journal.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "css/journal.css" | relURL }}">
+    {{ $styles := resources.Get "scss/journal.scss" | resources.ToCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
+    <!-- <link rel="stylesheet" href="{{ "css/journal.css" | relURL }}"> -->
     <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/icons.css" />
     <link href="{{ "index.xml" | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}">
 
