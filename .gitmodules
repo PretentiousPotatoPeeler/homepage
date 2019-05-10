@@ -1,9 +1,0 @@
-[submodule "themes/hugo-theme-basic"]
-	path = themes/hugo-theme-basic
-	url = https://github.com/siegerts/hugo-theme-basic.git
-[submodule "hugo-privacy-cactus-theme"]
-	path = hugo-privacy-cactus-theme
-	url = https://github.com/lucaspiller/hugo-privacy-cactus-theme.git
-[submodule "themes/hugo-journal"]
-	path = themes/hugo-journal
-	url = https://github.com/damiencaselli/hugo-journal.git
