@@ -1,13 +1,12 @@
 baseURL = "https://blog.pbcompaan.tk/"
 languageCode = "en-us"
 title = "Blog"
-theme = "hugo-journal"
+theme = "kiera"
 
 [author]
 name = "Pepijn Compaan"
+github = "PretentiousPotatoPeeler"
+linkedin = "pepijn-compaan-b97623121"
 
 [params]
-description = "A Blog description"
-githubUsername = "PretentiousPotatoPeeler"
-linkedinusername = "pepijn-compaan-b97623121"
 tagline = "Stuff I've Figured Out"
