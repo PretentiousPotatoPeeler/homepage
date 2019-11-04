@@ -1,4 +1,4 @@
-baseurl = "https://blog.pbcompaan.tk/"
+baseurl = "https://pbcompaan.tk/"
 title = "Pepijn Compaan"
 copyright = "Copyright &copy; 2019 - Pepijn Compaan"
 canonifyurls = true
