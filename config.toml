@@ -1,12 +1,19 @@
-baseURL = "https://blog.pbcompaan.tk/"
-languageCode = "en-us"
-title = "Blog"
+baseurl = "https://blog.pbcompaan.tk/"
+title = "Pepijn Compaan"
+copyright = "Copyright &copy; 2019 - Pepijn Compaan"
+canonifyurls = true
 theme = "kiera"
 
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
 [author]
-name = "Pepijn Compaan"
-github = "PretentiousPotatoPeeler"
-linkedin = "pepijn-compaan-b97623121"
+    name = "Pepijn Compaan"
+    github = "PretentiousPotatoPeeler"
+    linkedin = "pepijn-compaan-b97623121"
 
 [params]
-tagline = "Stuff I've Figured Out"
+    tagline = "Stuff I've Figured Out"

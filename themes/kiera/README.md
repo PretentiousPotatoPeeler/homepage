@@ -2,7 +2,7 @@
 
 Kiera is the theme specialized in presenting writing layout like long essay or technical writing.
 
-It was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and now maintained by [funkydan2](//github.com/funkydan2/)
+It was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and now maintained by [funkydan2](//github.com/funkdan2/)
 
 ## Main Features
 
@@ -26,13 +26,13 @@ $ cd themes
 $ git clone https://github.com/funkydan2/hugo-kiera.git kiera
 ```
 
-More detailed instruction at [Hugo Docs](https://gohugo.io/getting-started/).
+More detailed instruction at [Hugo Docs](http://gohugo.io/themes/installing-and-using-themes/).
 
 Using `git submodule` is recommended instead of `git clone` as per recommendation from [Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify).
 
 ```console
 $ cd themes
-$ git submodule add https://github.com/funkydan2/hugo-kiera.git kiera
+$ git submodule add https://github.com/avianto/hugo-kiera.git kiera
 ```
 
 ## Configuration
@@ -60,7 +60,6 @@ googleAnalytics = "" #Google Analytics ID
 
 [params]
     tagline = "the tagline for this website"
-    customCSS = []  #Optional Customised CSS
 ```
 
 ## Main Menu
@@ -81,7 +80,7 @@ menu: "main"
 meta: "false"
 ```
 
-`meta` refers to time, categories, tags and reading time which are not necessary for this kind of page.
+```meta``` refers to time, categories, tags and reading time which are not necessary for this kind of page.
 
 For posts listing page, add `_index.md` file inside `content\posts` folder with these front matter:
 
@@ -97,7 +96,7 @@ weight = "10"
 
 ## Categories & Tags
 
-Pages can include both, either, or neither *Categories* or *Tags*.
+Both can be used, also can use only one of them or neither.
 
 ## Images
 

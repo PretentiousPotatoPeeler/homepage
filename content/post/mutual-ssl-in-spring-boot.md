@@ -7,7 +7,7 @@ This article will contain info on how to enable Mutual SSL in Spring Boot.
 
 # 1. Prerequisites
 1. crt (or cer) and key file
-2. OpenSSL installed (TODO: Links)
+2. OpenSSL installed 
 3. Keytool installed
 
 # 2. Generate trust and keystore 

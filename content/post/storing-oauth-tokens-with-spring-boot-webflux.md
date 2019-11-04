@@ -1,7 +1,6 @@
 ---
 title: "Storing Oauth Tokens With Spring Boot Webflux"
 date: 2019-09-17T13:45:52+02:00
-draft: true
 ---
 
 As a pet project, I am trying to recreate Last.fm with Spring Boot. This project involves authenticating the user with OAuth2 to Spotify and storing the authentication / refresh token to later use them to pull the users recent listening history. Sadly, I wanted to get this working in the new Spring WebFlux framework. I say sadly for this was not something that could easily be copy pasted from StackOverflow...
