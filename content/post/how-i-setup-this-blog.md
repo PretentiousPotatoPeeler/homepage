@@ -21,7 +21,7 @@ For new blog posts I can simply use `hugo new content/post/<blogpost.md>`. Easy!
 
 # Caddy Setup
 The following is an excerpt from the Caddyfile that I use for this blog:
-```
+```caddy
 https://pbcompaan.tk {
   log /var/log/caddy.blog.log
   errors /var/log/caddy.blog.err 
